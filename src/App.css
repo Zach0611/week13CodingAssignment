@@ -1,0 +1,86 @@
+.navBar ul {
+  width: 100vw;
+  background-color:navy;
+  color:white;
+  font-size: 26px;
+  padding: 20px;
+  margin:auto;
+}
+
+.navBar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navBar ul li {
+  list-style-type: none;
+  margin-right: 1em;
+}
+
+.navBar ul li:hover {
+  color: gold;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.login-header {
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: navy;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #333;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color:navy;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: purple;
+}
